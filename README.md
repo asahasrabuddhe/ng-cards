@@ -1,27 +1,22 @@
-# Cards
+# Angular Cards
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+This is a sample project prepared with a goal to understand the basics of Angular. Through this project,
+we aim to gain better understanding of the following concepts:
 
-## Development server
+* Creating Components using `ng generate component <name>`
+* Using Components in our Application
+* Scoped CSS
+* Accepting Data in a Child Component
+* Communicating from the Parent Component to the Child Component
+* *ngFor Directive
+* Deploying to CF Pages
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instructions
 
-## Code scaffolding
+1. Clone the repository.
+2. Install Dependencies `npm install` or `bun install`.
+3. Run Project `ng serve`.
+4. Build Project `ng build`.
+5. Deploy Project `npm run deploy` or `bun run deploy`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is available on https://pwg.ajitem.com
