@@ -20,4 +20,4 @@ we aim to gain better understanding of the following concepts:
 4. Build Project `ng build`.
 5. Deploy Project `npm run deploy` or `bun run deploy`.
 
-This project is available on https://pwg.ajitem.com
+This project is available on https://cards.ajitem.com
