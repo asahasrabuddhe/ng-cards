@@ -1,11 +1,11 @@
-<div class="flex items-center justify-center">
+<div class="flex flex-col items-center justify-center">
+  <p *ngIf="showingStaticContent" class="text-md text-red-500 my-6 xl:my-12">There seems to be a problem reaching out to the Unsplash API. Showing static content.</p>
   <div class="card-grid">
     <app-card *ngFor="let post of posts"
               [title]="post.title"
               [imageUrl]="post.imageUrl"
               [username]="post.username"
               [content]="post.content"
-              class="max-h-30"
     ></app-card>
   </div>
 </div>

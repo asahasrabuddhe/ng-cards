@@ -9,6 +9,7 @@ we aim to gain better understanding of the following concepts:
 * Accepting Data in a Child Component
 * Communicating from the Parent Component to the Child Component
 * *ngFor Directive
+* Angular HTTP Client
 * Deploying to CF Pages
 
 ## Instructions

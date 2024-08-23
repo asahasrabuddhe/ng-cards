@@ -12,6 +12,7 @@ export class UnsplashService {
 
   getPosts() {
     const posts: Post[] = [];
+
     this.client
       .get<any[]>(`https://api.unsplash.com/photos/random?count=3&client_id=${environment.unsplash_access_key}`)
       .subscribe({
@@ -24,7 +25,8 @@ export class UnsplashService {
               content: image.description ? image.description : image.alt_description,
             })
           }
-        }
+        },
+        error: error => console.error(error)
       })
 
     return posts;
