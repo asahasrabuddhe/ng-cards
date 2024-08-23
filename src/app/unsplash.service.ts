@@ -21,7 +21,7 @@ export class UnsplashService {
               title: image.alt_description,
               imageUrl: image.urls.regular,
               username: image.user?.instagram_username ? image.user.instagram_username : image.user.username,
-              content: image.description
+              content: image.description ? image.description : image.alt_description,
             })
           }
         }
